@@ -24,3 +24,12 @@ Random Forest Classifier
 Threshold Optimization
 
 The classification threshold was selected on the validation set based on a target Recall of 80% and then evaluated on the unseen test set.
+
+Dataset
+
+The dataset was obtained from the following GitHub repository:
+
+Credit Card Fraud Detection Dataset
+https://github.com/nsethi31/Kaggle-Data-Credit-Card-Fraud-Detection
+
+The dataset contains credit card transactions labeled as fraudulent or legitimate.
