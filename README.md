@@ -1,6 +1,6 @@
 Credit Card Fraud Detection
 
-Machine learning project for detecting fraudulent credit card transactions.
+Machine learning project for detecting fraudulent credit card transactions using Random Forest.
 
 What I did
 
@@ -10,13 +10,17 @@ What I did
 • Hyperparameter tuning with GridSearchCV
 • Evaluation using Recall and PR-AUC
 • Confusion Matrix analysis
-• Threshold optimization to balance Recall and False Positives
+• Threshold optimization using the validation set
+• Target Recall optimization to reduce false negatives
 
 Technologies
 
-Python · Pandas · NumPy · Scikit-learn · Matplotlib · Seaborn
+Python · Pandas · NumPy · Scikit-learn
 
-Results
+Model
 
-Recall: ~89.8%
-PR-AUC: ~0.85
+Random Forest Classifier
+
+Threshold Optimization
+
+The classification threshold was selected on the validation set based on a target Recall of 80% and then evaluated on the unseen test set.
