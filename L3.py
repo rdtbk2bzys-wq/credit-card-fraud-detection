@@ -8,7 +8,7 @@ pd.set_option("display.max_columns", None)
 pd.set_option("display.max_rows", None)
 pd.set_option("display.width", 1000)
 
-df = pd.read_csv(r"C:\Users\User\Desktop\creditcard (1).csv")
+df = pd.read_csv("creditcard.csv") #Please read the README.md file before running the code.
 
 
 
