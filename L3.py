@@ -28,10 +28,7 @@ x = df.drop(columns=["Class"])
 
 
 # print(confusion_matrix(y_test, y_pred))
-
 # print(f"Recall): {recall_score(y_test, y_pred):.2%}")
-
-
 # print(f"PR-AUC: {average_precision_score(y_test, y_probs):.4f}")
 
 
